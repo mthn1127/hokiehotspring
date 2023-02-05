@@ -88,6 +88,7 @@ img {
   width: 500px;
   height: auto;
   padding: 1em;
-  margin-left: 1px;
-  margin-right: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
