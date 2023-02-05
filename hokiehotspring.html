@@ -14,12 +14,26 @@
 
     <body>
         <!-- Navigational Bar-->
-        <div class="pill-nav">
+        <!-- old 
+            <div class="pill-nav">
             <a href="index.html">Home</a>
             <a href="hokiepositive.html">Hokie Positive</a>
             <a class="active" href="hokiehotspring.html">Hokie Hot Spring</a>
             
             <input type="text" placeholder="Search..." class="split">
+        </div> -->
+
+        <div class="topnav">
+    
+            <a class="active" href="index.html">Home</a>
+            <a href="hokiepositive.html">Hokie Positive</a>
+            <a href="hokiehotspring.html">Hokie Hot Spring</a>
+            <div class="search-container">
+                <form action="/action_page.php"></form>
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
 
         <header>
@@ -27,7 +41,7 @@
         </header>
 
         <main>
-            <a href="everypage.html">Change of Major Application</a><br>
+            <a href="everypage.html">Change of Major Application</a><br style="line-height">
             <p>For undergraduate students only, who have completed at least a fall or 
                 spring semester of graded VT coursework on the VT transcript.</p><br>
 
